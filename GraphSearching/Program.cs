@@ -23,13 +23,14 @@ namespace GraphSearching
 
             try
             {
-                myGraph.DepthFirst("L");                                                    // Start at node "L" and print graph
+                myGraph.DepthFirst("l");                                                    // Start at node "L" and print graph.
             }
             catch (IndexOutOfRangeException e)
             {
                 Console.WriteLine(e.Message);
             }
 
+            Console.WriteLine("\nPress enter to continue...");
             Console.ReadLine();
         }
     }
