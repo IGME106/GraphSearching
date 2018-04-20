@@ -23,7 +23,7 @@ namespace GraphSearching
 
             try
             {
-                myGraph.DepthFirst("df");                                                    // Start at node "L" and print graph
+                myGraph.DepthFirst("L");                                                    // Start at node "L" and print graph
             }
             catch (IndexOutOfRangeException e)
             {

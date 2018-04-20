@@ -223,6 +223,8 @@ namespace GraphSearching
         /// <param name="name">Name/Key of the Dictionary item to look for</param>
         public void DepthFirst(string name)
         {
+            name = name.ToUpper();
+
             Stack<Vertex> graphStack = new Stack<Vertex>();
             Vertex tempVertex = null;
 
